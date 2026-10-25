@@ -3272,3 +3272,30 @@ footer .bottom-footer {
 .blog_sidebar .recent_blog .recent_blog_single_item:last-child {
   border:none;
 }
+/* Chulavista - barra de contacto fija (Propuesta 1: Industrial limpio) */
+.chula-contact-bar {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: #17438b;
+  padding: 10px 12px;
+  text-align: center;
+}
+.chula-contact-bar a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 18px;
+  margin: 0 6px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.chula-contact-bar a.chula-call { background: #17438b; border: 1px solid #fff; }
+.chula-contact-bar a.chula-wa { background: #25d366; }
+@media (max-width: 700px) {
+  .chula-contact-bar { display: block; }
+  body { padding-bottom: 60px; }
+}
