@@ -3312,3 +3312,25 @@ footer .bottom-footer {
 .chula-card span { display: block; color: #17438b; font-weight: 700; padding: 0 16px 16px 16px; }
 @media (max-width: 900px) { .chula-card { width: calc(50% - 20px); } }
 @media (max-width: 500px) { .chula-card { width: 100%; } }
+/* Propuesta 1 Industrial limpio: encabezado y menu azules, hero nuevo */
+.main-header .bottom-header { background: #17438b !important; }
+.main-header .logo { background: #fff; padding: 8px 14px; border-radius: 8px; display: inline-block; }
+.main-header .right-side a, .main-header .right-side p, .main-header .right-side span { color: #fff !important; }
+.main-menu { background: #17438b !important; border-top: 1px solid rgba(255,255,255,0.25); }
+.main-menu .nav > li > a { color: #fff !important; }
+#banner { display: none !important; }
+.chula-hero { background: #fff; padding: 50px 0 10px 0; }
+.chula-hero-inner { display: flex; gap: 40px; align-items: center; }
+.chula-hero-text { flex: 1; }
+.chula-hero-text h1 { color: #17438b; font-size: 52px; line-height: 1.1; margin: 0 0 16px 0; }
+.chula-hero-text p { color: #333; font-size: 17px; line-height: 1.6; }
+.chula-hero-btns { margin: 22px 0; }
+.chula-hero-btn { display: inline-block; padding: 13px 26px; border-radius: 6px; font-weight: 700; text-decoration: none; margin-right: 12px; }
+.chula-hero-btn-blue { background: #17438b; color: #fff; }
+.chula-hero-btn-green { background: #fff; color: #1a9c4b; border: 2px solid #25d366; }
+.chula-hero-badges span { display: inline-block; border: 1px solid #ddd; border-radius: 20px; padding: 6px 14px; margin: 0 8px 8px 0; color: #333; font-size: 14px; }
+.chula-hero-img { flex: 1; }
+.chula-hero-img img { width: 100%; border-radius: 10px; display: block; }
+.chula-pills { text-align: center; margin-bottom: 24px; }
+.chula-pills a { display: inline-block; background: #fff; border: 1px solid #e5e5e5; border-radius: 20px; padding: 8px 18px; margin: 0 6px 8px 0; color: #17438b; font-weight: 700; text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+@media (max-width: 900px) { .chula-hero-inner { flex-direction: column; } .chula-hero-text h1 { font-size: 38px; } }
