@@ -3334,3 +3334,24 @@ footer .bottom-footer {
 .chula-pills { text-align: center; margin-bottom: 24px; }
 .chula-pills a { display: inline-block; background: #fff; border: 1px solid #e5e5e5; border-radius: 20px; padding: 8px 18px; margin: 0 6px 8px 0; color: #17438b; font-weight: 700; text-decoration: none; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
 @media (max-width: 900px) { .chula-hero-inner { flex-direction: column; } .chula-hero-text h1 { font-size: 38px; } }
+/* Prioridad movil: encabezado compacto, menu sin recortes, hero legible */
+@media (max-width: 700px) {
+  .main-header .bottom-header { padding: 12px 0 !important; }
+  .main-header .logo { padding: 6px 10px; }
+  .main-header .logo img { height: 56px !important; }
+  .main-header .right-side { float: none !important; padding-top: 8px !important; text-align: center; }
+  .main-header .right-side .single-content { float: none !important; margin-left: 0 !important; padding-left: 0 !important; padding-right: 0 !important; }
+  .main-header .right-side .single-content.bar-fix:before { display: none; }
+  .main-header .right-side .single-content .ficon { display: none; }
+  .main-header .right-side a.single-content { display: none !important; }
+  .main-menu .request-quote { position: static !important; width: auto !important; line-height: 50px !important; display: block !important; text-align: left !important; padding-left: 12px; }
+  .main-menu .request-quote span { display: none; }
+  .main-menu a[href*="wa.me"], .main-menu a[href^="tel:"] { display: none !important; }
+  .chula-hero { padding: 28px 0 10px 0; }
+  .chula-hero-text h1 { font-size: 34px; }
+  .chula-hero-btn { display: block; text-align: center; margin: 0 0 10px 0; }
+  .chula-products { padding: 30px 0; }
+}
+@media (max-width: 700px) {
+  span#empresa, span#productos, span#maquinaria, span#servicios { margin-top: -140px !important; }
+}
